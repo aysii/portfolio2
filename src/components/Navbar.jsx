@@ -17,7 +17,7 @@ const Navbar = () => {
                 <a href='#' className='font-bold'><span>Manabat</span></a>
             </div>
 
-            <ul class="text-gray-700 font-medium hidden lg:flex lg:items-center lg:justify-center lg:space-x-10 text-2xl">
+            <ul class="text-gray-700 font-medium hidden hover:bg-blue-700 transition-colors duration-300" lg:flex lg:items-center lg:justify-center lg:space-x-10 text-2xl">
                 <li className='p-2'><NavLink to="/hero" activeClassName="selected">Home</NavLink></li>
                 <li className='p-2'><NavLink to="/about" activeClassName="text-black">About</NavLink></li>
                 <li className='p-2'><NavLink to="/portfolio" activeClassName="text-black">Portfolio</NavLink></li>
