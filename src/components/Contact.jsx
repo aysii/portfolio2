@@ -45,7 +45,7 @@ const Contact = () => {
                                 <div class="m-5">
                                     <h3 class="text-lg font-bold text-gray-200">School Contact</h3>
                                     <p class="text-gray-400">Here's my school email:</p>
-                                    <p class="text-gray-400">bc.johnadrian.alvarez@cvsu.edu.ph</p>
+                                    <p class="text-gray-400">bc.jamesonisaac.manabat@cvsu.edu.ph</p>
                                 </div>
                             </li>
                         </ul>
