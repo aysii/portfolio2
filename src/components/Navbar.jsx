@@ -14,7 +14,7 @@ const Navbar = () => {
         <div class='flex items-center justify-between h-16 lg:h-20 bg-[#223]/30 rounded-b-3xl shadow-lg px-4'>
 
             <div class='text-white text-xl sm:text-2xl'>
-                <a href='#' className='font-bold'><span>Alvarez</span></a>
+                <a href='#' className='font-bold'><span>Manabat</span></a>
             </div>
 
             <ul class="text-gray-700 font-medium hidden lg:flex lg:items-center lg:justify-center lg:space-x-10 text-2xl">
