@@ -27,8 +27,8 @@ const Contact = () => {
                                 <AiFillFacebook className='w-[70px] h-auto text-gray-300'/>
                                 <div class="m-5">
                                     <h3 class="text-lg font-bold text-gray-200">My Address</h3>
-                                    <p class="text-gray-400">848 Tramo Street, Daniel</p>
-                                    <p class="text-gray-400">Fajardo, Las Piñas City</p>
+                                    <p class="text-gray-400">#57 BCUVERAI, Villa Esperanza Molino 2</p>
+                                    <p class="text-gray-400">Bacoor, Cavite City</p>
                                 </div>
                             </li>
                             <li class="flex">
