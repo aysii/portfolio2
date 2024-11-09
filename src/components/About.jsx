@@ -15,7 +15,7 @@ const  About = () => {
                 I've finished thus far. In the tech industry, I'm constantly keen to learn more and study new prospects.
                 </p>
             </div>
-            <img class="flex md:absolute mx-auto bottom-[-50%] right-[20%] w-[240px] md:w-[450px] h-auto" src={mobile} alt=""/>
+           {/* <img class="flex md:absolute mx-auto bottom-[-50%] right-[20%] w-[240px] md:w-[450px] h-auto" src={mobile} alt=""/>*/}
         </div>
       </div>
       <div class="bg-black/40 max-w-[1300px] mx-auto rounded-xl overflow-hidden">
