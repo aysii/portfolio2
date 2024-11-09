@@ -9,10 +9,10 @@ const  About = () => {
             <div>
                 <h2 class="text-3xl font-bold leading-tight gray-primary-color sm:text-4xl lg:text-5xl">Hello, I am <span className='italic'>Janno</span></h2>
                 <p class="max-w-lg mt-3 text-xl leading-relaxed text-gray-400 md:mt-8">
-                Hi! I’m John Adrian Alvarez, a Bachelor of Science in Computer Science (BSCS) student at Cavite State University 
-                - Bacoor Campus. I’m passionate about expanding my knowledge in the field of computer science and continuously 
-                improving my skills. This website showcases the programming languages I’ve worked with and some of the projects 
-                I’ve completed so far. I’m always eager to learn more and explore new opportunities in the tech world.
+                Hi! I’m Jameson Isaac J. Manabat,a Cyclist who wants to be a professional in the future and also a Bachelor of Science in Computer Science (BSCS) student at Cavite State University 
+                - Bacoor Campus. I’m willing to learn more and expanding my knowledge in the coures of computer science and continuously 
+                improving my skills. This website displays some of the projects I've worked on and the programming languages I've used. 
+                I've finished thus far. In the tech industry, I'm constantly keen to learn more and study new prospects.
                 </p>
             </div>
             <img class="flex md:absolute mx-auto bottom-[-50%] right-[20%] w-[240px] md:w-[450px] h-auto" src={mobile} alt=""/>
