@@ -24,7 +24,7 @@ const Hero = () => {
                     </a>
                 </div>
                 <div class="flex flex-row justify-between text-white p-8 max-w-[500px] mx-auto">
-                  <a href="https://github.com/eyeos69" className='transition-all duration-200 hover:scale-110 cursor-pointer'><AiFillGithub className='w-[70px] h-auto'/></a>
+                  <a href="https://github.com/aysii" className='transition-all duration-200 hover:scale-110 cursor-pointer'><AiFillGithub className='w-[70px] h-auto'/></a>
                   <a href="https://www.instagram.com/the1ndonly_eyeos/" className='transition-all duration-200 hover:scale-110 cursor-pointer'><AiFillInstagram className='w-[70px] h-auto'/></a>
                   <a href="https://www.facebook.com/eyeos6" className='transition-all duration-200 hover:scale-110 cursor-pointer'><AiFillFacebook className='w-[70px] h-auto'/></a>
                 </div>
