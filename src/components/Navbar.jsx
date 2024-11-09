@@ -30,7 +30,7 @@ const Navbar = () => {
 
             <div className={nav ? 'z-30 text-gray-300 fixed h-[50%] left-0 top-0 w-full bg-[#202121] ease-in-out duration-500'
                  : 'fixed left-[-100%]'}>
-            <h1 className='text-3xl gray-primary color m-4'>Alvarez</h1>
+            <h1 className='text-3xl gray-primary color m-4'>Manabat</h1>
             <ul className='p-8 text-4xl ml-20'>
                 <li className='p-2'><NavLink to="/hero" activeClassName="selected">Home</NavLink></li>
                 <li className='p-2'><NavLink to="/about" activeClassName="text-black">About</NavLink></li>
