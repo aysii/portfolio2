@@ -6,33 +6,41 @@ import notebookM from '../assets/5.png'
 
 const Hero = () => {
   return (
-    <div class="relative pt-16 pb-10 sm:pt-16 sm:pb-16 overflow-hidden h-[92vh]">
-        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 relative z-20">
-            <div class="max-w-xl mx-auto text-center">
-                <h1 class="text-4xl font-bold sm:text-6xl gray-primary-color">
+    <div className="relative pt-16 pb-10 sm:pt-16 sm:pb-16 overflow-hidden h-[92vh]">
+        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 relative z-20">
+            <div className="max-w-xl mx-auto text-center">
+                <h1 className="text-4xl font-bold sm:text-6xl gray-primary-color">
                     Computer Scientist
                 </h1>
-                <p class="mt-5 text-base text-white sm:text-xl">
+                <p className="mt-5 text-base text-white sm:text-xl">
                     3rd Year Computer Science Student. Welcome To My Website Portfolio!
                 </p>
-                <div>
-                    <a href="#" title="" class="shadow-2xl mr-4 inline-flex items-center px-6 py-4 mt-8 font-semibold text-white bg-primary-color rounded-lg transition-all duration-200 hover:scale-110" role="button">
-                    Download Resume
-                    </a>
-                    <a href="#" title="" class="inline-flex items-center px-6 py-4 mt-8 font-semibold text-white border rounded-lg transition-all duration-200 hover:scale-110" role="button">
-                    View Work
-                    </a>
-                </div>
-                <div class="flex flex-row justify-between text-white p-8 max-w-[500px] mx-auto">
-                  <a href="https://github.com/aysii" className='transition-all duration-200 hover:scale-110 cursor-pointer'><AiFillGithub className='w-[70px] h-auto'/></a>
-                  <a href="https://www.instagram.com/aysii_senju/profilecard/?igsh=MW1nYW5wMDJ6dzc5bQ==" className='transition-all duration-200 hover:scale-110 cursor-pointer'><AiFillInstagram className='w-[70px] h-auto'/></a>
-                  <a href="https://www.facebook.com/jameson.manabat?mibextid=ZbWKwL" className='transition-all duration-200 hover:scale-110 cursor-pointer'><AiFillFacebook className='w-[70px] h-auto'/></a>
+                
+                <div className="flex flex-row justify-between text-white p-8 max-w-[500px] mx-auto">
+                  <a href="https://github.com/aysii" className='transition-all duration-200 hover:scale-110 cursor-pointer'>
+                    <AiFillGithub className='w-[70px] h-auto'/>
+                  </a>
+                  <a href="https://www.instagram.com/aysii_senju/profilecard/?igsh=MW1nYW5wMDJ6dzc5bQ==" className='transition-all duration-200 hover:scale-110 cursor-pointer'>
+                    <AiFillInstagram className='w-[70px] h-auto'/>
+                  </a>
+                  <a href="https://www.facebook.com/jameson.manabat?mibextid=ZbWKwL" className='transition-all duration-200 hover:scale-110 cursor-pointer'>
+                    <AiFillFacebook className='w-[70px] h-auto'/>
+                  </a>
                 </div>
             </div>
-            <div class="relative bottom-0 z-10 flex mx-auto justify-center">
-              <img class="left-[-200px] top-[-20px] sm:left-[-100px] sm:top-[-400px] absolute block w-auto h-[150px] sm:h-[500px]" src={notebookL} alt=""/>
-              <img class="absolute sm:relative w-auto bottom-[-110px] right-[-70px] sm:bottom-0 sm:right-0 h-[100px] sm:h-[380px]" src={notebookM} alt=""/>
-              <img class="right-[-270px] top-[-200px] sm:bottom-0 absolute block h-auto w-[800px] sm:w-[700px]" src={profilepic} alt=""/>
+            <div className="relative bottom-0 z-10 flex mx-auto justify-center">
+              <img 
+                className="left-[-200px] top-[-20px] sm:left-[-100px] sm:top-[-400px] absolute block w-full sm:w-auto h-auto sm:h-[500px]" 
+                src={notebookL} alt="Notebook Large"
+              />
+              <img 
+                className="absolute sm:relative w-full sm:w-auto bottom-[-110px] right-[-70px] sm:bottom-0 sm:right-0 sm:h-[380px] h-auto" 
+                src={notebookM} alt="Notebook Medium"
+              />
+              <img 
+                className="right-[-270px] top-[-200px] sm:bottom-0 absolute block w-full sm:w-[700px] h-auto" 
+                src={profilepic} alt="Profile Picture"
+              />
             </div>
         </div>
     </div>
