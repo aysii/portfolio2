@@ -36,7 +36,7 @@ const Contact = () => {
                                 <div class="m-5">
                                     <h3 class="text-lg font-bold text-gray-200">Contact
                                     </h3>
-                                    <p class="text-gray-400">Mobile: 09278240038</p>
+                                    <p class="text-gray-400">Mobile: 09514778692</p>
                                     <p class="text-gray-400">Email: jjaannnnoooooo@gmail.com</p>
                                 </div>
                             </li>
